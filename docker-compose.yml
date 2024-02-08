@@ -5,7 +5,7 @@ services:
   service-php:
     image: ${USERHUB}/${ARTIFACT}:${NUMBER}
     ports:
-      - 6004:80
+      - 6004:8080
     deploy:
       mode: replicated
       replicas: 3
