@@ -7,7 +7,7 @@ services:
     ports:
       - 6004:80
     deploy:
-      mode: global
+      mode: replicated
       replicas: 3
       update_config:
         parallelism: 1
