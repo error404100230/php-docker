@@ -3,7 +3,7 @@ version: '3.5'
 services:
             
   service-php:
-    image: ${uri}/${artifact}:${number}
+    image: ${URI}/${ARTIFACT}:${NUMBER}
     ports:
       - 6004:80
     deploy:
